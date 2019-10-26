@@ -4,7 +4,7 @@
 <%@ include file="/WEB-INF/jspf/head.jspf"%>
 <!-- body -->
 <h2 style="margin-left:5px; margin-top:10px; margin-bottom:15px"><b>글 쓰기</b></h2>
-<form method="post" action="/board/write">
+<form method="post" action="/boardSJS/writeSJS">
 	<div style="margin-left:10px">
 	<label style="margin-right:48px">제목</label>
 	<input type="text" name="title" placeholder="제목를 입력해주세요"><br>

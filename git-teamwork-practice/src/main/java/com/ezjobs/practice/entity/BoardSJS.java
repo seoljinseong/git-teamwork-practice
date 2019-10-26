@@ -10,7 +10,7 @@ import lombok.Data;
 @Table(name="board")
 @Data
 @AllArgsConstructor 
-public class Board {
+public class BoardSJS {
     
 	@Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

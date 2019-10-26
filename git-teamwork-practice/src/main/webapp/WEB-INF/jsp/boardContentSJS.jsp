@@ -22,7 +22,7 @@
 	
 	<div>
 	<p align="right">
-	<a class="btn btn-primary" href="/board/community" role="button">목록</a>
+	<a class="btn btn-primary" href="/boardSJS/communitySJS" role="button">목록</a>
 	</p>
 	</div>
 	

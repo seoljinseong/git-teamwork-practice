@@ -18,7 +18,7 @@
   <c:forEach var="item" items="${boards}">
     <tr>
       <th scope="row">${item.id}</th>
-      <td><a href="/board/content/${item.id}">${item.title}</a></td>
+      <td><a href="/boardSJS/contentSJS/${item.id}">${item.title}</a></td>
       <td>${item.userId}</td>
       <td>${item.editDate}</td>
     </tr>
@@ -27,7 +27,7 @@
 </table>
 
     <div align="right">
-    <a class="btn btn-primary" href="/board/write" role="button" style="margin:10px">글쓰기</a>
+    <a class="btn btn-primary" href="/boardSJS/writeSJS" role="button" style="margin:10px">글쓰기</a>
     </div>
     
 	<div align="center">
